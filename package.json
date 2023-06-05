@@ -6,7 +6,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "dev": "sanity dev",
-    "start": "sanity start",
+    "start": "sanity start --port=3000",
     "build": "sanity build",
     "deploy": "sanity deploy",
     "deploy-graphql": "sanity graphql deploy"
@@ -30,6 +30,7 @@
     "supabase": "^1.64.2"
   },
   "devDependencies": {
+    "@flydotio/dockerfile": "^0.2.14",
     "@sanity/eslint-config-studio": "^2.0.1",
     "@types/react": "^18.0.25",
     "@types/styled-components": "^5.1.26",
