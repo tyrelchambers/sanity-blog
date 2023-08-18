@@ -14,7 +14,7 @@ export default defineConfig({
   title: 'thistle-goldfish',
 
   projectId: 'rv9flsof',
-  dataset: 'production',
+  dataset: 'development',
 
   plugins: [
     deskTool(),
