@@ -20,6 +20,11 @@ export default defineField({
       },
     }),
     defineField({
+      name: 'link',
+      type: 'string',
+      title: 'Link',
+    }),
+    defineField({
       name: 'thumbnail',
       type: 'image',
       title: 'Thumbnail',
