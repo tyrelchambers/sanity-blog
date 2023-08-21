@@ -1,4 +1,5 @@
 import {defineField} from 'sanity'
+import {techStack} from '../constants'
 
 export default defineField({
   name: 'posts',
@@ -43,23 +44,7 @@ export default defineField({
       type: 'tags',
       name: 'tags',
       options: {
-        predefinedTags: [
-          {label: 'Web development', value: 'web-development'},
-          {label: 'Personal development', value: 'personal-development'},
-          {label: 'React', value: 'react'},
-          {label: 'Next.js', value: 'nextjs'},
-          {label: 'JavaScript', value: 'javascript'},
-          {label: 'TypeScript', value: 'typescript'},
-          {label: 'CSS', value: 'css'},
-          {label: 'HTML', value: 'html'},
-          {label: 'Git', value: 'git'},
-          {label: 'Node.js', value: 'nodejs'},
-          {label: 'Express.js', value: 'expressjs'},
-          {label: 'MongoDB', value: 'mongodb'},
-          {label: 'Exercise', value: 'exercise'},
-          {label: 'React Query', value: 'react-query'},
-          {label: 'Career', value: 'career'},
-        ],
+        predefinedTags: techStack,
       },
 
       validation: (Rule) => Rule.unique(),
