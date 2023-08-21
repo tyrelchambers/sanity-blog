@@ -9,12 +9,14 @@ import {tags} from 'sanity-plugin-tags'
 
 const devOnlyPlugins = [getStartedPlugin()]
 
+const dataset = !isDev ? 'production' : 'development'
+
 export default defineConfig({
   name: 'default',
   title: 'thistle-goldfish',
 
   projectId: 'rv9flsof',
-  dataset: 'production',
+  dataset,
 
   plugins: [
     deskTool(),
