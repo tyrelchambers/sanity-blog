@@ -23,4 +23,6 @@ export const techStack = [
   {label: 'NestJS', value: 'nestjs'},
   {label: 'Node.js', value: 'nodejs'},
   {label: 'DigitalOcean', value: 'digitalocean'},
+  {label: 'Career', value: 'career'},
+  {label: 'Personal', value: 'personal'},
 ]
