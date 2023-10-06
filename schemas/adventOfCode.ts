@@ -30,11 +30,24 @@ export default defineField({
       title: 'Content',
     }),
     defineField({
+      name: 'notes',
+      type: 'markdown',
+      title: 'Notes',
+    }),
+    defineField({
       title: 'Tech stack',
       type: 'tags',
       name: 'techStack',
       options: {
         predefinedTags: techStack,
+      },
+    }),
+    defineField({
+      name: 'year',
+      type: 'date',
+      title: 'Year',
+      options: {
+        dateFormat: 'YYYY',
       },
     }),
   ],
