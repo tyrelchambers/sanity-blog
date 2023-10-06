@@ -25,4 +25,6 @@ export const techStack = [
   {label: 'DigitalOcean', value: 'digitalocean'},
   {label: 'Career', value: 'career'},
   {label: 'Personal', value: 'personal'},
+  {label: 'Go', value: 'go'},
+  {label: 'Advent of Code', value: 'adventOfCode'},
 ]
